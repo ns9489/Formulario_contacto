@@ -9,10 +9,9 @@
     }
 
     .container {
-      background-color: #fff;
+      background-color: #2d4354;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       width: 100%;
       max-width: 400px;
     }
@@ -20,10 +19,12 @@
     h1 {
       text-align: center;
       margin-bottom: 20px;
+      color: #ffff;
     }
 
     .form-group {
       margin-bottom: 15px;
+      font-size: 1.2rem;
     }
 
     .form-group label {
@@ -41,13 +42,9 @@
     }
 
     .form-group input[type="submit"] {
-      background-color: #007bff;
+      background-color: #0b1e33;
       color: #fff;
       border: none;
-      cursor: pointer;
       transition: background-color 0.3s;
     }
 
-    .form-group input[type="submit"]:hover {
-      background-color: #0056b3;
-    }
